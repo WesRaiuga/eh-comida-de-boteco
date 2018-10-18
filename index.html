@@ -9,34 +9,37 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="assets/css/estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
     <title>Boteco's Food</title>
 </head>
 <body>
     <!-- HEADER -->
     <header>
-        <nav>
-            <a href="">LOGO</a>
-        </nav>
-        <nav>
+        <nav class="menu">
+            <a href=""><img src="assets/images/logo.png" alt="Logotipo Comidas de Boteco"></a>
             <ul>
-                <li>Coxinhas</li>
+                <li><a href="#coxinha">Coxinhas</li>
                 <li><a href="#bolovo">Bolovos</a></li>
-                <li>Pastéis</li>
-                <li>Extras</li>
-                <li>Bebidas</li>
-                <li>Sobremesas</li>
+                <li><a href="#pastel">Pastéis</a></li>
+                <li><a href="#extras">Extras</a></li>
+                <li><a href="#bebida">Bebidas</a></li>
+                <li><a href="#sobremesa">Sobremesas</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- MAIN -->
     <main>
-        <div>
-            <h1>Bestaverna</h1>
-            <p>The Most Famosas Boteco's Food</p>
-            <img src="assets/images/bolovo.jpg" alt="Bolovo">
+        <div class="banner">
+            <h1>The Most Famous Comidas de Boteco</h1>
+            <p>Essas são as iguarias do nosso verão</p>
         </div>
+        
+        <section id="receita-bolovo">
+            <img class="estilo-imagem" src="assets/images/bolovo.jpg" alt="Bolovo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, earum harum consequatur rem nobis corrupti mollitia odio. Voluptas at perferendis earum modi quasi cumque neque, sed eveniet, ullam ex perspiciatis?</p>
+        </section>
 
         <section id="coxinha">
             <article>
@@ -48,7 +51,7 @@
             <div>
                 <h2>Bolovo não é janta</h2>
                 <p>Extra! <a href="https://google.com" target="_blank">Veja</a> como transformá-lo em sopa</p>
-                <img src="assets/images/bolovo.jpg" alt="">
+                <img class="estilo-imagem" src="assets/images/bolovo.jpg" alt="bolovo">
             </div>
             <aside>
                 <p>Na vida descobrimos coisas novas</p>
